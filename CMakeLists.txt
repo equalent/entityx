@@ -130,7 +130,7 @@ if (ENTITYX_BUILD_SHARED)
         DEBUG_POSTFIX -d
         VERSION ${ENTITYX_VERSION}
         SOVERSION ${ENTITYX_MAJOR_VERSION}
-        FOLDER entityx)
+        FOLDER Lib/EntityX)
     set(install_libs entityx)
     set_property(TARGET entityx APPEND PROPERTY INTERFACE_INCLUDE_DIRECTORIES
           $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>)
